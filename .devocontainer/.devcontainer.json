@@ -1,0 +1,19 @@
+{
+  "dockerComposeFile": "compose.yml",
+  "workspaceFolder": "/app",
+  "service": "app",
+  "features": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-starship:0": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh:0": {},
+    // "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "charliermarsh.ruff"
+      ]
+    }
+  }
+}
