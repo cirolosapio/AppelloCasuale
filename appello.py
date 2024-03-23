@@ -11,7 +11,7 @@ class AppelloCasuale:
 
     def chiamare_ragazzo(self):
         if self.indice_attuale == len(self.appello_corrente):
-            print("------------------Sono stati chiamati tutti------------------")
+            print("------------------Sono stati chiamati tutti-------------------")
             self.set_classe(self.path, self.classe)
             
 
