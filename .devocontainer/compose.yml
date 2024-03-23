@@ -1,0 +1,6 @@
+services:
+  app:
+    image: python:3.13.0a5-alpine3.19
+    command: top
+    volumes:
+      - ..:/app:cached
